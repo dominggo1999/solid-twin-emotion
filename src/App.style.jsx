@@ -7,6 +7,16 @@ export const Wrapper = css`
     min-h-screen 
     flex 
     items-center 
-    justify-center
-  `}
+    justify-center 
+    flex-col
+    text-xl 
+    font-semibold
+  `} 
+
+  a{
+    ${tw`
+      text-blue-700
+      underline 
+    `}
+  }
 `;
